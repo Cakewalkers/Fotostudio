@@ -1,0 +1,92 @@
+* {   /* Dette er en ALL-selector */
+	margin: 0;
+	padding: 0;
+}
+
+html {
+}
+
+body {
+	font-family: arial;
+}
+
+header {
+	background-color: black;
+	height: 7em;
+	width: 100%;
+}
+
+.container {
+	width: 50%;
+	height: 10em;
+	margin: 0 auto;
+}
+
+#logo {
+	height: 6em;
+	width: 10%;		/* 10% av container */
+	background-image: url(Pics/batman.png);
+	background-size: 100% 100%;
+	float: left;
+	margin: 0.5em 0;
+	margin-right: 10%;  /* 10% av container */
+}
+
+nav {
+	width: 80%;		/* Resterende 80% av container */
+	height: auto;
+	float: right;
+	margin: 1.8em 0;
+}
+
+#navElements {
+	list-style: none;	/* Fjerne bullet-points */
+}
+
+#navElements a {
+	color: white;
+	text-decoration: none;
+}
+
+#navElements li {
+	float: left;
+	margin-left: 2em;
+	background-color: #252525;
+	padding: 1em;
+	border: 1px solid silver;
+	border-radius: 0.3em;
+}
+
+#navElements li:hover {
+	background-color: #CCCCCC;
+}
+
+section#main {			/* Main Section! */
+	border: 1px black solid;
+	margin: auto;
+	width: 50%;
+	height: auto;
+}
+
+.content {				/* Ramme til Bildeslide, Bokser og Sirkelbilder */
+	border-bottom: 1px black solid;
+	width: 100%;
+	height: auto;
+}
+
+#picSlide {
+	height: 600px;
+}
+
+#picBoxes {
+	height: 160px;
+}
+
+#picBoxes li {
+	list-style: none;
+	width: 24.845%;
+	height: 100%;
+	float:left;
+	text-align: center;
+	border: 1px red dashed;
+}

@@ -1,0 +1,68 @@
+html, body, div, h2, p, ul, li, img {
+    margin: 0;
+    padding: 0;
+}
+
+article, aside, figure, header, hgroup, menu, 
+nav, section {
+    display: block;
+}
+
+body {
+    background: #FFCCFF;
+    font-family: Verdana, sans-serif;      
+}
+
+.container {
+    width: 700 px;
+    margin: 30px auto 0;
+}
+
+header {
+    background: #6B006B;
+    border-bottom: 1px solid #000;
+}
+
+header h2 {
+    color: #fff;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 18px;
+    word-spacing: 2px;
+    text-shadow: 1px 1px 2px #000;
+}
+
+#content {
+    background: #F2DCF2;
+    background: linear-gradient(to top, #F2DCF2 0%, #B893B8 50%, #E8BFE8 100%);
+    background: -webkit-linear-gradient(to top, #F2DCF2 0%, #B893B8 50%, #E8BFE8 100%);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.gallery {
+    width: 1090px;
+    margin: auto;
+}
+
+.gallery ul {
+    list-style: none;
+}
+
+.gallery li {
+    float: left;
+    margin: 10px;
+}
+
+.gallery img {
+    display: block;
+    padding: 5px;
+    background: #A319A3;
+    border: 1px solid #D18CD1;
+    box-shadow: 1px 1px 2px #000;
+}
+
+.gallery img:hover {
+    border: 1px solid #fff;
+}

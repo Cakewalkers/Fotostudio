@@ -1,9 +1,63 @@
-html, body, div, h2, p, ul, li, img {
+#bildebar {
+    width: 1660px;
+}
+
+#bildebar #holder {
+    height: 81px;
+    border-bottom: 1px solid #000;
+    width: 1630px;
+    padding-left: 335px;
+    padding-top: 15px;
+}
+    
+#bildebar #holder ul {
+    list-style: none;
     margin: 0;
     padding: 0;
 }
 
-article, aside, figure, header, hgroup, menu, 
+#bildebar #holder ul li a {
+    text-decoration: none;
+    float: left;
+    margin-right: 5px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: #FFFFCC;
+    border: 2px solid #000;
+    border-bottom: none;
+    padding: 28px;
+    width: 100px;
+    text-align: center;
+    display: block;
+    background: #800000;
+    border-top-left-radius: 1.5em;
+    border-top-right-radius: 1.5em;
+}
+
+#bildebar #holder ul li a:hover {
+    background: #F90;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #000;
+}
+
+#holder ul li a#thislink {
+    background: #FFCCFF;
+    color: #A31919;
+    border-bottom: 1px solid #FFF;
+}
+
+#holder ul li a#thislink:hover {
+    background: #FFFFCC;
+    color: #800000;
+    text-shadow: 1px 1px 1px #000;
+}
+
+
+html, body, div, p, ul, li, img {
+    margin: 0;
+    padding: 0;
+}
+
+article, aside, figure, hgroup, menu, 
 nav, section {
     display: block;
 }
@@ -15,21 +69,7 @@ body {
 
 .container {
     width: 700 px;
-    margin: 30px auto 0;
-}
-
-header {
-    background: #6B006B;
-    border-bottom: 1px solid #000;
-}
-
-header h2 {
-    color: #fff;
-    text-align: center;
-    padding-top: 3px;
-    font-size: 18px;
-    word-spacing: 2px;
-    text-shadow: 1px 1px 2px #000;
+    margin: 0px auto 0;
 }
 
 #content {

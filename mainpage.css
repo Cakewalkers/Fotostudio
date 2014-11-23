@@ -4,7 +4,8 @@
 }
 
 html {
-	background-image: url(Pics/background2.jpg);
+	background-image: url(Pics/Index/background2.jpg);
+	background-color: orange;
 	background-size: 100%;
 }
 
@@ -29,7 +30,7 @@ header {
 #logo {
 	height: 6em;
 	width: 10%;		/* 10% av container */
-	background-image: url(Pics/batman.png);
+	background-image: url(Pics/Index/batman.png);
 	background-size: 100% 100%;
 	float: left;
 	margin: 0.5em 0;
@@ -143,22 +144,22 @@ section#main {			/* Main Section! */
 }
 
 #boks1 {
-	background-image: url(Pics/hero1.jpg);
+	background-image: url(Pics/Index/hero1.jpg);
 	background-size: 100% 100%;
 }
 
 #boks2 {
-	background-image: url(Pics/hero2.jpg);
+	background-image: url(Pics/Index/hero2.jpg);
 	background-size: 100% 100%;
 }
 
 #boks3 {
-	background-image: url(Pics/hero3.jpg);
+	background-image: url(Pics/Index/hero3.jpg);
 	background-size: 100% 100%;
 }
 
 #boks4 {
-	background-image: url(Pics/hero4.jpg);
+	background-image: url(Pics/Index/hero4.jpg);
 	background-size: 100% 100%;
 }
 
@@ -192,20 +193,20 @@ section#main {			/* Main Section! */
 }
 
 #sirkel1 {
-	background-image: url(Pics/person5.jpg);
+	background-image: url(Pics/Index/person5.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
 #sirkel2 {
-	background-image: url(Pics/person4.jpg);
+	background-image: url(Pics/Index/person4.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
 
 #sirkel3 {
-	background-image: url(Pics/person3.jpg);
+	background-image: url(Pics/Index/person3.jpg);
 	background-repeat: no-repeat;
 	background-size: 130%;
 	background-position: center;

@@ -3,7 +3,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
+		<title>BATMAN™-Fotostudio</title>
 		<link rel="stylesheet" type="text/css" href="mainpage.css">
 	</head>
 
@@ -18,35 +18,72 @@
 							<li><a href="#">Eksempel 2</a></li> <!-- Navigaton elements -->
 							<li><a href="#">Eksempel 3</a></li>
 							<li><a href="#">Eksempel 4</a></li>
-							<!-- Legg til flere om ønskelig -->
 						</ul>
 					</nav>
 				</div>
 			</header>
 
 			<section id="main">	<!-- Main row -->
-				<section class="content">  <!-- Bildeslide til Jonas -->
-					<div id="picSlide">		<!-- Forslag (feel free to remove) -->
+				<section class="content" id="slideWrap">  <!-- Bildeslide -->
+					<div id="picSlide">
+						<img src="Pics/batman.png">
 					</div>
+					<ul id="slideButtons">
+						<li class="buttons" id="button1" onclick="slidefunction1()"></li>
+						<li class="buttons" onclick="slidefunction2()"></li>
+						<li class="buttons" onclick="slidefunction3()"></li>
+					</ul>
 				</section>
 
-				<section class="content"> <!-- Boksene til Olga -->
-					<div id="boxWrap">		<!-- Forslag (feel free to remove) -->
-						<ul id="picBoxes">
-							<li>BOX 1</li>
-							<li>BOX 2</li>
-							<li>BOX 3</li>
-							<li>BOX 4</li>
+				<section class="content"> <!-- Galleribokser -->
+					<ul id="picBoxes">
+						<li id="boks1"><a href="#">Batman gallery</a></li>
+						<li id="boks2"><a href="#">Spider-man gallery</a></li>
+						<li id="boks3"><a href="#">Green Lantern gallery</a></li>
+						<li id="boks4"><a href="#">Superman gallery</a></li>
+					</ul>
+				</section>
+
+				<section class="content"> <!-- Sirkelbildene -->
+					<div id="sirkelWrap">
+						<p id="fotografene"> Fotografene: </p>
+						<ul id="sirkelBilder">	<!-- Bildene -->
+							<li id="sirkel1"><p>Per Hansen</p></li>
+							<li id="sirkel2"><p>Frøken Fjong</p></li>
+							<li id="sirkel3"><p>Mr. Deep</p></li>
 						</ul>
 					</div>
-				</section>
-
-				<section class="content"> <!-- Sirkelbildene til Asgeir -->
+					<article id="info">	<!-- Fotografene -->
+						<h3>BATMAN™-Fotostudio</h3>
+						<p>Våre fotografer er sexy as fuck! They know their shit! Like for reals!</p>
+						<p>BATMAN™-Fotostudio tar på seg alle slags oppdrag og er klare for å banke nisser og spy på troll, yeaaah!</p>
+						<p>MEST KJENT FOR: </br>
+								-Nakenbilder av Paris Hilton.</br>
+								-Film-footage fra 9/11.</br>
+								-Cover-fotografier av superhelter.</br></p>
+					</article>
 				</section>
 			</section>
 
 			<footer> <!-- Footer -->
 			</footer>
 		</div>
+
+		<script>  // Funksjonene til sliden
+		function slidefunction1()
+		{
+			document.getElementById("picSlide").innerHTML="<img src='Pics/batman.png'/>"
+		}
+
+		function slidefunction2()
+		{
+			document.getElementById("picSlide").innerHTML="<img src='Pics/spiderman.jpg'/>"
+		}
+
+		function slidefunction3()
+		{
+			document.getElementById("picSlide").innerHTML="<img src='Pics/lantern.jpg'/>"
+		}
+		</script>
 	</body>
 </html>

@@ -4,6 +4,8 @@
 }
 
 html {
+	background-image: url(Pics/background2.jpg);
+	background-size: 100%;
 }
 
 body {
@@ -14,11 +16,13 @@ header {
 	background-color: black;
 	height: 7em;
 	width: 100%;
+	border-top: 0.4em solid gray;
+	border-bottom: 0.4em solid gray;
 }
 
 .container {
 	width: 50%;
-	height: 10em;
+	height: inherit;
 	margin: 0 auto;
 }
 
@@ -34,35 +38,36 @@ header {
 
 nav {
 	width: 80%;		/* Resterende 80% av container */
-	height: auto;
+	height: inherit;
 	float: right;
-	margin: 1.8em 0;
 }
 
 #navElements {
 	list-style: none;	/* Fjerne bullet-points */
+	height: inherit;
+	overflow: auto;
 }
 
 #navElements a {
 	color: white;
 	text-decoration: none;
-}
-
-#navElements li {
+	font-size: 100%;
 	float: left;
 	margin-left: 2em;
 	background-color: #252525;
-	padding: 1em;
+	padding: 1.6%;
 	border: 1px solid silver;
 	border-radius: 0.3em;
+	margin-top: 1.8em;
 }
 
-#navElements li:hover {
+#navElements a:hover {
 	background-color: #CCCCCC;
 }
 
 section#main {			/* Main Section! */
 	border: 1px black solid;
+	border-top: none;
 	margin: auto;
 	width: 50%;
 	height: auto;
@@ -74,19 +79,147 @@ section#main {			/* Main Section! */
 	height: auto;
 }
 
-#picSlide {
-	height: 600px;
+#slideWrap {
+	height: 40em;		/* Wrapper for the slides */
+	position: relative;
+}
+
+#slideWrap img {
+	width: 100%;
+	height: 40em;      /* Where the slide picture is*/
+}
+
+#slideButtons {
+	position: absolute;
+	bottom: 0;
+	left: calc(50% - 8.375em / 2);
+}
+
+.buttons {
+	display: block;
+	height: 2em;
+	width: 2em;
+	border: 1px solid white;
+	background-color: black;
+	border-radius: 100%;
+	float: left;
+	margin-bottom: 0.5em;
+	margin-left: 1em;
+}
+
+#button1 {	/* For å få midstilte knapper */
+	margin-left: 0;
+}
+
+.buttons:hover {
+	background-color: white;
+	border-color: black;
 }
 
 #picBoxes {
-	height: 160px;
+	height: 15em;
 }
 
 #picBoxes li {
 	list-style: none;
-	width: 24.845%;
+	width: calc(25% - 1px);
 	height: 100%;
 	float:left;
+	border-left: 1px solid black;
+}
+
+#picBoxes a {
+	text-decoration: none;
+	background-color: gray;
+	border-right: 1px black solid;
+	border-bottom: 1px black solid;
+	border-top: 1px black solid;
+	color: orange;
+}
+
+#picBoxes a:hover {
+	background-color: black;
+	border-color: orange;
+}
+
+#boks1 {
+	background-image: url(Pics/hero1.jpg);
+	background-size: 100% 100%;
+}
+
+#boks2 {
+	background-image: url(Pics/hero2.jpg);
+	background-size: 100% 100%;
+}
+
+#boks3 {
+	background-image: url(Pics/hero3.jpg);
+	background-size: 100% 100%;
+}
+
+#boks4 {
+	background-image: url(Pics/hero4.jpg);
+	background-size: 100% 100%;
+}
+
+#sirkelWrap {
+	height: 23em;
+	width: auto;
+	overflow: auto;
+}
+
+#sirkelWrap ul {
+	list-style: none;
+	left-margin: 0;
+}
+
+#sirkelBilder li {
+	border: 1px solid black;
+	border-radius: 100%;
+	width: 16em;
+	height: 16em;
+	display: inline-block;
+	margin-left: 7.5em;
+	margin-top: 3%;
+}
+
+#sirkelBilder li p {		/* Tekst under bildene (navn) */
 	text-align: center;
-	border: 1px red dashed;
+	position: relative;
+	top: 100%;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#sirkel1 {
+	background-image: url(Pics/person5.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#sirkel2 {
+	background-image: url(Pics/person4.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#sirkel3 {
+	background-image: url(Pics/person3.jpg);
+	background-repeat: no-repeat;
+	background-size: 130%;
+	background-position: center;
+}
+
+#fotografene {
+	margin-top: 3px;
+	margin-left: 3px;
+	font-size: 1.5em;
+}
+
+#info {
+	margin-bottom: 1em;
+	background-color: white;
+	border: 2px solid red;
+	padding: 1em;
 }

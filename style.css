@@ -1,84 +1,55 @@
-#bildebar {
-    width: 1660px;
-}
-
-#bildebar #holder {
-    height: 81px;
-    border-bottom: 1px solid #000;
-    width: 1630px;
-    padding-left: 335px;
-    padding-top: 15px;
+#holder {
+    height: 6em;
+    width: auto;
+    padding-left: 10%;
+    background-color: black;
 }
     
-#bildebar #holder ul {
+#holder ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
 }
 
-#bildebar #holder ul li a {
+#holder ul li a {
     text-decoration: none;
     float: left;
     margin-right: 5px;
     font-family: "Arial Black", Gadget, sans-serif;
     color: #FFFFCC;
-    border: 2px solid #000;
-    border-bottom: none;
     padding: 28px;
-    width: 100px;
+    width: 5%;
     text-align: center;
-    display: block;
-    background: #800000;
-    border-top-left-radius: 1.5em;
-    border-top-right-radius: 1.5em;
+    background: #F7921E;
+    border-bottom-left-radius: 1.8em;
+    border-bottom-right-radius: 1.8em;
 }
 
-#bildebar #holder ul li a:hover {
-    background: #F90;
+#holder ul li a:hover {
+    background: #A85F0C;
     color: #FFF;
     text-shadow: 1px 1px 1px #000;
 }
 
 #holder ul li a#thislink {
-    background: #FFCCFF;
-    color: #A31919;
-    border-bottom: 1px solid #FFF;
+    background: white;
+    padding-bottom: 35px;
+    color: black;
 }
 
 #holder ul li a#thislink:hover {
-    background: #FFFFCC;
-    color: #800000;
-    text-shadow: 1px 1px 1px #000;
-}
-
-
-html, body, div, p, ul, li, img {
-    margin: 0;
-    padding: 0;
-}
-
-article, aside, figure, hgroup, menu, 
-nav, section {
-    display: block;
+    text-shadow: none;
 }
 
 body {
-    background: #FFCCFF;
     font-family: Verdana, sans-serif;      
 }
 
-.container {
-    width: 700 px;
-    margin: 0px auto 0;
-}
-
 #content {
-    background: #F2DCF2;
-    background: linear-gradient(to top, #F2DCF2 0%, #B893B8 50%, #E8BFE8 100%);
-    background: -webkit-linear-gradient(to top, #F2DCF2 0%, #B893B8 50%, #E8BFE8 100%);
+    background: #F7921E;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, #FFFFFF 50%, #000 100%);
+    background: -webkit-linear-gradient(to top, rgba(0, 0, 0, 0) 0%, #FFFFFF 50%, #000 100%);
     padding-top: 30px;
     padding-bottom: 30px;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .gallery {
@@ -98,11 +69,12 @@ body {
 .gallery img {
     display: block;
     padding: 5px;
-    background: #A319A3;
-    border: 1px solid #D18CD1;
+    background: orange;
+    border: 1px solid black;
     box-shadow: 1px 1px 2px #000;
 }
 
 .gallery img:hover {
     border: 1px solid #fff;
+    background: white;
 }

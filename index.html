@@ -5,11 +5,12 @@
 		<meta charset="UTF-8">
 		<title>BATMAN™-Fotostudio</title>
 		<link rel="stylesheet" type="text/css" href="mainpage.css">
+		<link rel="stylesheet" type="text/css" href="ramme.css">
 	</head>
 
 	<body>
 		<header>
-			<div class="container">
+			<div class="headerContainer">
 				<a href="index.html"><div id="logo"></div></a> <!-- Logo -->
 				<nav>		<!-- Navbar -->
 					<ul id="navElements">
@@ -37,7 +38,7 @@
 
 			<section class="content" id="slideWrap">  <!-- Bildeslide -->
 				<div id="picSlide">
-					<img src="Pics/Index/batman.png">
+					<img src="Pics/Index/batman.jpg">
 				</div>
 				<ul id="slideButtons">
 					<li class="buttons" id="button1" onclick="slidefunction1()"></li>
@@ -55,16 +56,16 @@
 				</ul>
 			</section>
 
-			<section class="content"> <!-- Sirkelbildene -->
+			<!-- <section class="content"> <!- Sirkelbildene ->
 				<div id="sirkelWrap">
 					<p id="fotografene"> Fotografene: </p>
-					<ul id="sirkelBilder">	<!-- Bildene -->
+					<ul id="sirkelBilder">	<!- Bildene ->
 						<li id="sirkel1"><p>Per Hansen</p></li>
 						<li id="sirkel2"><p>Frøken Fjong</p></li>
 						<li id="sirkel3"><p>Mr. Deep</p></li>
 					</ul>
 				</div>
-			</section>
+			</section> -->
 		</section>
 
 		<footer> <!-- Footer -->
@@ -73,7 +74,7 @@
 		<script>  // Funksjonene til sliden
 		function slidefunction1()
 		{
-			document.getElementById("picSlide").innerHTML="<img src='Pics/Index/batman.png'/>"
+			document.getElementById("picSlide").innerHTML="<img src='Pics/Index/batman.jpg'/>"
 		}
 
 		function slidefunction2()

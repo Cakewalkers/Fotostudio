@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
     <head>
         <title>Barn</title>
         <!--[if IE]>
@@ -8,36 +7,47 @@
         <![endif]-->        
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="ramme.css">
     </head>
     <body>
-        <div id="bildebar">
-            <div id="holder">
+        <header>
+            <div class="headerContainer">
+                <a href="index.html"><div id="logo"></div></a> <!-- Logo -->
+                <nav>       <!-- Navbar -->
+                    <ul id="navElements">
+                        <li><a href="index.html">Forside</a></li>
+                        <li><a href="bryllup.html">Galleri</a></li> <!-- Navigaton elements -->
+                        <li><a href="about.html">Om Oss</a></li>
+                        <li><a href="#">Eksempel 4</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div id="holder">
+            <ul>
+                <li><a href="bryllup.html">Bryllup</a></li>
+                <li><a href="gravid.html">Gravide</a></li>
+                <li><a href="barn.html" id="thislink">Barn</a></li>
+                <li><a href="family.html">Familie</a></li>
+            </ul>                
+        </div>               
+        <section id="content">
+            <div class="gallery">
                 <ul>
-                    <li><a href="bryllup.html">Bryllup</a></li>
-                    <li><a href="gravid.html">Gravide</a></li>
-                    <li><a href="barn.html" id="thislink">Barn</a></li>
-                    <li><a href="family.html">Familie</a></li>
-                </ul>                
-            </div>                
-        </div>
-        <div class="container">
-        <div>
-            <section id="content">
-                <div class="gallery">
-                    <ul>
-                        <li><a href="Pics/Gallery/lpic/10.jpg" title="Barn"><img src="Pics/Gallery/preview/10.jpg" width="235" height="292" alt="Barn"></a></li>
-                        <li><a href="Pics/Gallery/lpic/5.jpg" title="Barn"><img src="Pics/Gallery/preview/5.jpg" width="235" height="292" alt="Barn"></a></li>
-                        <li><a href="Pics/Gallery/lpic/7.jpg" title="Barn"><img src="Pics/Gallery/preview/7.jpg" width="235" height="292" alt="Barn"></a></li>
-                        <li><a href="Pics/Gallery/lpic/13.jpg" title="Barn"><img src="Pics/Gallery/preview/13.jpg" width="235" height="292" alt="Barn"></a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="Pics/Gallery/lpic/14.jpg" title="Barn"><img src="Pics/Gallery/preview/14.jpg" width="235" height="292" alt="Barn"></a></li>
-                        <li><a href="Pics/Gallery/lpic/4.jpg" title="Barn"><img src="Pics/Gallery/preview/4.jpg" width="235" height="292" alt="Barn"></a></li>
-                        <li><a href="Pics/Gallery/lpic/16.jpg" title="Barn"><img src="Pics/Gallery/preview/16.jpg" width="235" height="292" alt="Barn"></a></li>
-                        <li><a href="Pics/Gallery/lpic/11.jpg" title="Barn"><img src="Pics/Gallery/preview/11.jpg" width="235" height="292" alt="Barn"></a></li>
-                    </ul>
-                </div>
-            </section>
-        </div>
+                    <li><a href="Pics/Gallery/lpic/10.jpg" title="Barn"><img src="Pics/Gallery/preview/10.jpg" width="235" height="292" alt="Barn"></a></li>
+                    <li><a href="Pics/Gallery/lpic/5.jpg" title="Barn"><img src="Pics/Gallery/preview/5.jpg" width="235" height="292" alt="Barn"></a></li>
+                    <li><a href="Pics/Gallery/lpic/7.jpg" title="Barn"><img src="Pics/Gallery/preview/7.jpg" width="235" height="292" alt="Barn"></a></li>
+                    <li><a href="Pics/Gallery/lpic/13.jpg" title="Barn"><img src="Pics/Gallery/preview/13.jpg" width="235" height="292" alt="Barn"></a></li>
+                </ul>
+                <ul>
+                    <li><a href="Pics/Gallery/lpic/14.jpg" title="Barn"><img src="Pics/Gallery/preview/14.jpg" width="235" height="292" alt="Barn"></a></li>
+                    <li><a href="Pics/Gallery/lpic/4.jpg" title="Barn"><img src="Pics/Gallery/preview/4.jpg" width="235" height="292" alt="Barn"></a></li>
+                    <li><a href="Pics/Gallery/lpic/16.jpg" title="Barn"><img src="Pics/Gallery/preview/16.jpg" width="235" height="292" alt="Barn"></a></li>
+                    <li><a href="Pics/Gallery/lpic/11.jpg" title="Barn"><img src="Pics/Gallery/preview/11.jpg" width="235" height="292" alt="Barn"></a></li>
+                </ul>
+            </div>
+        </section>
     </body>
 </html>

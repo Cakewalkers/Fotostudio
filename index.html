@@ -8,66 +8,67 @@
 	</head>
 
 	<body>
-		<div id="allContent">
-			<header>
-				<div class="container">
-					<div id="logo"></div> <!-- Logo -->
-					<nav>		<!-- Navbar -->
-						<ul id="navElements">
-							<li><a href="#">Hjem</a></li>
-							<li><a href="bryllup.html">Galleri</a></li> <!-- Navigaton elements -->
-							<li><a href="#">Eksempel 3</a></li>
-							<li><a href="#">Eksempel 4</a></li>
-						</ul>
-					</nav>
-				</div>
-			</header>
-
-			<section id="main">	<!-- Main row -->
-				<section class="content" id="slideWrap">  <!-- Bildeslide -->
-					<div id="picSlide">
-						<img src="Pics/Index/batman.png">
-					</div>
-					<ul id="slideButtons">
-						<li class="buttons" id="button1" onclick="slidefunction1()"></li>
-						<li class="buttons" onclick="slidefunction2()"></li>
-						<li class="buttons" onclick="slidefunction3()"></li>
+		<header>
+			<div class="container">
+				<a href="index.html"><div id="logo"></div></a> <!-- Logo -->
+				<nav>		<!-- Navbar -->
+					<ul id="navElements">
+						<li><a href="index.html">Forside</a></li>
+						<li><a href="bryllup.html">Galleri</a></li> <!-- Navigaton elements -->
+						<li><a href="about.html">Om Oss</a></li>
+						<li><a href="#">Eksempel 4</a></li>
 					</ul>
-				</section>
+				</nav>
+			</div>
+		</header>
 
-				<section class="content"> <!-- Galleribokser -->
-					<ul id="picBoxes">
-						<li id="boks1"><a href="bryllup.html">Batman gallery</a></li>
-						<li id="boks2"><a href="gravid.html">Spider-man gallery</a></li>
-						<li id="boks3"><a href="barn.html">Green Lantern gallery</a></li>
-						<li id="boks4"><a href="family.html">Superman gallery</a></li>
-					</ul>
-				</section>
-
-				<section class="content"> <!-- Sirkelbildene -->
-					<div id="sirkelWrap">
-						<p id="fotografene"> Fotografene: </p>
-						<ul id="sirkelBilder">	<!-- Bildene -->
-							<li id="sirkel1"><p>Per Hansen</p></li>
-							<li id="sirkel2"><p>Frøken Fjong</p></li>
-							<li id="sirkel3"><p>Mr. Deep</p></li>
-						</ul>
-					</div>
-					<article id="info">	<!-- Fotografene -->
-						<h3>BATMAN™-Fotostudio</h3>
-						<p>Våre fotografer er genier. They know their shit! Like for reals!</p>
-						<p>BATMAN™-Fotostudio tar på seg alle slags oppdrag og er klare for å banke nisser og spy på troll, yeaaah!</p>
-						<p>MEST KJENT FOR: </br>
-								-Snikfotografi av Paris Hilton.</br>
-								-Film-footage fra 9/11.</br>
-								-Cover-fotografier av superhelter.</br></p>
-					</article>
-				</section>
+		<section id="main">	<!-- Main row -->
+			<section class="content">
+				<article id="info">
+					<h3>BATMAN™-Fotostudio</h3>
+					<p>Våre fotografer er genier. They know their shit! Like for reals!</p>
+					<p>BATMAN™-Fotostudio tar på seg alle slags oppdrag og er klare for å banke nisser og spy på troll, yeaaah!</p>
+					<p>MEST KJENT FOR: </br>
+							-Snikfotografi av Paris Hilton.</br>
+							-Film-footage fra 9/11.</br>
+							-Cover-fotografier av superhelter.</br></p>
+				</article>
 			</section>
 
-			<footer> <!-- Footer -->
-			</footer>
-		</div>
+			<section class="content" id="slideWrap">  <!-- Bildeslide -->
+				<div id="picSlide">
+					<img src="Pics/Index/batman.png">
+				</div>
+				<ul id="slideButtons">
+					<li class="buttons" id="button1" onclick="slidefunction1()"></li>
+					<li class="buttons" onclick="slidefunction2()"></li>
+					<li class="buttons" onclick="slidefunction3()"></li>
+				</ul>
+			</section>
+
+			<section class="content"> <!-- Galleribokser -->
+				<ul id="picBoxes">
+					<li id="boks1"><a href="bryllup.html">Batman gallery</a></li>
+					<li id="boks2"><a href="gravid.html">Spider-man gallery</a></li>
+					<li id="boks3"><a href="barn.html">Green Lantern gallery</a></li>
+					<li id="boks4"><a href="family.html">Superman gallery</a></li>
+				</ul>
+			</section>
+
+			<section class="content"> <!-- Sirkelbildene -->
+				<div id="sirkelWrap">
+					<p id="fotografene"> Fotografene: </p>
+					<ul id="sirkelBilder">	<!-- Bildene -->
+						<li id="sirkel1"><p>Per Hansen</p></li>
+						<li id="sirkel2"><p>Frøken Fjong</p></li>
+						<li id="sirkel3"><p>Mr. Deep</p></li>
+					</ul>
+				</div>
+			</section>
+		</section>
+
+		<footer> <!-- Footer -->
+		</footer>
 
 		<script>  // Funksjonene til sliden
 		function slidefunction1()

@@ -30,12 +30,9 @@
 }
 
 #holder ul li a#thislink {
-    background: white;
+    background: gray;
     padding-bottom: 35px;
-    color: black;
-}
-
-#holder ul li a#thislink:hover {
+    color: white;
     text-shadow: none;
 }
 

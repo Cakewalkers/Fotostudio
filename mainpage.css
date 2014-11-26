@@ -1,11 +1,12 @@
 #slideWrap {
-	height: 33em;		/* Wrapper for the slides */
+	height: 40em;		/* Wrapper for the slides */
 	position: relative;
+	background: white;
 }
 
 #slideWrap img {
 	width: 100%;
-	height: 33em;      /* Where the slide picture is*/
+	height: 40em;      /* Where the slide picture is*/
 }
 
 #slideButtons {
@@ -48,36 +49,40 @@
 }
 
 #picBoxes a {
+	float:left;
 	text-decoration: none;
-	background-color: gray;
+	background-color: #F7921E;
+	padding: 1em;
 	border-right: 1px black solid;
 	border-bottom: 1px black solid;
-	border-top: 1px black solid;
-	color: orange;
+	border-bottom-right-radius: 1em;
+	color: #FFFFCC;
+	font-weight: bold;
 }
 
 #picBoxes a:hover {
-	background-color: black;
-	border-color: orange;
+	background-color: #A85F0C;
+	border-color: white;
+	text-shadow: 1px 1px 1px #000;
 }
 
 #boks1 {
-	background-image: url(Pics/Index/hero1.jpg);
+	background-image: url(Pics/Index/bryllup_01.jpg);
 	background-size: 100% 100%;
 }
 
 #boks2 {
-	background-image: url(Pics/Index/hero2.jpg);
+	background-image: url(Pics/Index/gravid.jpg);
 	background-size: 100% 100%;
 }
 
 #boks3 {
-	background-image: url(Pics/Index/hero3.jpg);
+	background-image: url(Pics/Index/baby.jpg);
 	background-size: 100% 100%;
 }
 
 #boks4 {
-	background-image: url(Pics/Index/hero4.jpg);
+	background-image: url(Pics/Index/family2.jpg);
 	background-size: 100% 100%;
 }
 

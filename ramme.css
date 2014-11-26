@@ -17,53 +17,60 @@ header {
 	background-color: black;
 	height: 5em;
 	width: 100%;
-	border-top: 0.4em solid gray;
 	border-bottom: 0.4em solid gray;
 }
 
 .headerContainer {
-	width: 50%;
 	height: inherit;
-	margin: 0 auto;
+	margin-left: 25%;
 }
 
 #logo {
 	height: 4em;
-	width: 10%;		/* 10% av container */
-	background-image: url(Pics/Index/batman.jpg);
+	width: 18em;		/* 10% av container */
+	background-image: url(Pics/Index/logo.jpg);
 	background-size: 100% 100%;
+	margin: 0.5em 0;  /* 10% av container */
 	float: left;
-	margin: 0.5em 0;
-	margin-right: 10%;  /* 10% av container */
 }
 
 nav {
-	width: 80%;		/* Resterende 80% av container */
+	width: 80%; /* Resterende 80% av container */
 	height: inherit;
-	float: right;
 }
 
 #navElements {
 	list-style: none;	/* Fjerne bullet-points */
 	height: inherit;
-	overflow: auto;
+	width: 100%;
 }
 
 #navElements a {
-	color: white;
+	color: #FFFFCC;
 	text-decoration: none;
+	text-align: center;
 	font-size: 100%;
 	float: left;
-	margin-left: 2em;
-	background-color: #252525;
-	padding: 1.6%;
-	border: 1px solid silver;
-	border-radius: 0.3em;
-	margin-top: 0.8em;
+	margin-left: 5px;
+	background-color: orange;
+	padding: 1em;
+	width: 5em;
+	border-bottom: none;
+	border-top-right-radius: 0.3em;
+	border-top-left-radius: 0.3em;
+	margin-top: 27px;
 }
 
 #navElements a:hover {
-	background-color: #CCCCCC;
+	background: #A85F0C;
+    text-shadow: 1px 1px 1px #000;
+    color: #FFF;
+}
+
+#navElements a#thisPage {
+	background: gray;
+	color: white;
+	text-shadow: none;
 }
 
 section#main {			/* Main Section! */
@@ -72,6 +79,7 @@ section#main {			/* Main Section! */
 	margin: auto;
 	width: 50%;
 	height: auto;
+	box-shadow: 10px 10px 15px, -10px 10px 15px;
 }
 
 .content {				/* Ramme til Bildeslide, Bokser og Sirkelbilder */

@@ -17,30 +17,31 @@ header {
 	background-color: black;
 	height: 5em;
 	width: 100%;
-	border-bottom: 0.4em solid gray;
+	border-bottom: 0.5em solid gray;
 }
 
 .headerContainer {
 	height: inherit;
 	margin-left: 25%;
+	overflow: auto;
 }
 
 #logo {
 	height: 4em;
-	width: 18em;		/* 10% av container */
+	width: 18em;
 	background-image: url(Pics/Index/logo.jpg);
 	background-size: 100% 100%;
-	margin: 0.5em 0;  /* 10% av container */
+	margin: 0.5em 0;
 	float: left;
 }
 
 nav {
-	width: 80%; /* Resterende 80% av container */
+	width: 100%;
 	height: inherit;
 }
 
 #navElements {
-	list-style: none;	/* Fjerne bullet-points */
+	list-style: none;
 	height: inherit;
 	width: 100%;
 }

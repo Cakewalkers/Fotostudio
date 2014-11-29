@@ -1,4 +1,15 @@
-#map-canvas {
-        width: 500px;
-        height: 400px;
-      }
+#artikkel {
+	width: 50%;
+	float: left;
+	margin-top: 1em;
+	margin-left: 1em;
+	margin-right: -1em;
+}
+
+#kart {
+	width: 50%;
+}
+
+#main {
+	background-color: white;
+}

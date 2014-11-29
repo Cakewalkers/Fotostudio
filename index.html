@@ -10,58 +10,62 @@
 	</head>
 
 	<body>
-		<header>
-			<div class="headerContainer">
-				<a href="index.html" id="logo"></a> <!-- Logo -->
-				<nav>		<!-- Navbar -->
-					<ul id="navElements">
-						<li><a href="index.html" id="thisPage">Forside</a></li>
-						<li><a href="bryllup.html">Galleri</a></li> <!-- Navigaton elements -->
-						<li><a href="about.html">Om Oss</a></li>
-						<li><a href="kontakt.html">Kontakt</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
-
-		<section id="main">	<!-- Main row -->
-			<section class="content">
-				<article id="info">
-					<h3>Velkommen til AppelsinFoto!</h3>
-					<p>AppelsinFoto tar alle slags bilder! Vi ser på fotografi som en kunstform og reflekterer dette i bildene våre. Kun det beste er godt nok for Appelsinfoto!</p>
-					<p>I tillegg til privatpersoner tar vi også på oss oppdrag fra bedrfiter til typisk reklamefoto eller motefoto.</p>
-					<p>Her hos oss kan du forevige alle de store (og små!) minnene i livet Velkommen til oss!</p>
-				</article>
-			</section>
-
-			<section class="content" id="slideWrap">  <!-- Bildeslide -->
-				<div id="picSlide">
-					<img src="Pics/Index/26.jpg" alt="Bilde av bygning">
+		<div id="wrapper">
+			<header>
+				<div class="headerContainer">
+					<a href="index.html" id="logo" title="AppelsinFoto logo"></a> <!-- Logo -->
+					<nav>		<!-- Navbar -->
+						<ul id="navElements">
+							<li><a href="index.html" id="thisPage">Forside</a></li>
+							<li><a href="bryllup.html">Galleri</a></li> <!-- Navigaton elements -->
+							<li><a href="about.html">Om Oss</a></li>
+							<li><a href="kontakt.html">Kontakt</a></li>
+						</ul>
+					</nav>
 				</div>
-				<ul id="slideButtons">
-					<li class="buttons" id="button1" onclick="slidefunction1()"></li>
-					<li class="buttons" onclick="slidefunction2()"></li>
-					<li class="buttons" onclick="slidefunction3()"></li>
-				</ul>
+			</header>
+
+			<section id="main">	<!-- Main row -->
+				<section class="content">
+					<article id="info">
+						<h3>Velkommen til AppelsinFoto!</h3>
+						<p>AppelsinFoto tar alle slags bilder! Vi ser på fotografi som en kunstform og reflekterer dette i bildene våre. Kun det beste er godt nok for Appelsinfoto!</p>
+						<p>I tillegg til privatpersoner tar vi også på oss oppdrag fra bedrfiter til typisk reklamefoto eller motefoto.</p>
+						<p>Her hos oss kan du forevige alle de store (og små!) minnene i livet Velkommen til oss!</p>
+					</article>
+				</section>
+
+				<section class="content" id="slideWrap">  <!-- Bildeslide -->
+					<div id="picSlide">
+						<img src='Pics/Index/26.jpg' alt='Bilde av bygning'>
+					</div>
+					<ul id="slideButtons">
+						<li class="buttons" id="button1" onclick="slidefunction1()"></li>
+						<li class="buttons" onclick="slidefunction2()"></li>
+						<li class="buttons" onclick="slidefunction3()"></li>
+					</ul>
+				</section>
+
+				<section class="content"> <!-- Galleribokser -->
+					<ul id="picBoxes">
+						<li id="boks1" title="Nygift par"><a href="bryllup.html">Bryllup</a></li>
+						<li id="boks2" title="En gravid mage"><a href="gravid.html">Gravide</a></li>
+						<li id="boks3" title="Blåøyd baby med lue"><a href="barn.html">Barn</a></li>
+						<li id="boks4" title="Familie fremfor en åker"><a href="family.html">Familie</a></li>
+					</ul>
+				</section>
 			</section>
 
-			<section class="content"> <!-- Galleribokser -->
-				<ul id="picBoxes">
-					<li id="boks1" title="Nygift par"><a href="bryllup.html">Bryllup</a></li>
-					<li id="boks2" title="En gravid mage"><a href="gravid.html">Gravide</a></li>
-					<li id="boks3" title="Blåøyd baby med lue"><a href="barn.html">Barn</a></li>
-					<li id="boks4" title="Familie fremfor en åker"><a href="family.html">Familie</a></li>
-				</ul>
-			</section>
-		</section>
-
-		<footer> <!-- Footer -->
-		</footer>
+			<div id="spacer"></div> <!-- For at ikke footeren skal dekke over noe annet -->
+			<footer id="foot"> <!-- Footer -->
+				<p>© 2014 AppelsinFoto   All Rights Reserved</p>
+			</footer>
+		</div>
 
 		<script>  // Funksjonene til sliden
 		function slidefunction1()
 		{
-			document.getElementById("picSlide").innerHTML="<img src='Pics/Index/bryllup.jpg' alt='Bilde av et gift par over en fjord/>"
+			document.getElementById("picSlide").innerHTML="<img src='Pics/Index/skog.jpg' alt='Bilde av et gift par over en fjord'/>"
 		}
 
 		function slidefunction2()

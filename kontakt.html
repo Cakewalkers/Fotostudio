@@ -10,45 +10,59 @@
 	</head>
 
 	<body>
-	   <header>
-			<div class="headerContainer">
-				<a href="index.html" id="logo"></a> <!-- Logo -->
-				<nav>		<!-- Navbar -->
-					<ul id="navElements">
-						<li><a href="index.html">Forside</a></li>
-						<li><a href="bryllup.html">Galleri</a></li> <!-- Navigaton elements -->
-						<li><a href="about.html">Om Oss</a></li>
-						<li><a href="kontakt.html" id="thisPage">Kontakt</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
+        <div id="wrapper">
+    	   <header>
+    			<div class="headerContainer">
+    				<a href="index.html" id="logo" title="AppelsinFoto logo"></a> <!-- Logo -->
+    				<nav>		<!-- Navbar -->
+    					<ul id="navElements">
+    						<li><a href="index.html">Forside</a></li>
+    						<li><a href="bryllup.html">Galleri</a></li> <!-- Navigaton elements -->
+    						<li><a href="about.html">Om Oss</a></li>
+    						<li><a href="kontakt.html" id="thisPage">Kontakt</a></li>
+    					</ul>
+    				</nav>
+    			</div>
+    		</header>
 
-		<section id="main">	<!-- Fint å lage alt innenfor denne så vi får en konsistens på siden -->
-      <article id="artikkel">
-        <p>Studioet ligger like ved Frognerparken, 10 minutters gange fra Majorstuen T-banestasjon. </br>
-        Ta gjerne kontakt for info, avtaler eller uforpliktende prat.</p>
-        <table border="0" cellpadding="10" cellspacing="10">
-          <tr>
-            <td>Telefon: </td>
-            <td> 40888484</td>
-          </tr>
-          <tr>
-            <td>E-post: </td>
-            <td>post@appelsinfoto.no</td>
-          </tr>            <tr>
-            <td>Adresse: </td>
-            <td>Fuglehauggata 12A, 0260 Oslo</td>
-          </tr>            <tr>
-             <td>Kart til høyre.</td>                         
-          </tr>
-        </table>   
-      </article>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3998.8748144025767!2d10.711851543377682!3d59.924883817194704!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416dd0254683fb%3A0xd2a94ee90ba501af!2sFuglehauggata+12A%2C+0260+Oslo!5e0!3m2!1sno!2sno!4v1417230713523" width="800" height="600" frameborder="0" style="border:0" id="kart" title="Kart som viser studioets beliggenhet"></iframe>
-		</section>
+    		<section id="main">	<!-- Fint å lage alt innenfor denne så vi får en konsistens på siden -->
+          <article id="artikkel">
+            <p>Studioet ligger like ved Frognerparken, 10 minutters gange fra Majorstuen T-banestasjon. </br>
+            Ta gjerne kontakt for info, avtaler eller uforpliktende prat.</p>
+            <table border="0" cellpadding="10" cellspacing="10">
+              <tr>
+                <td>Telefon: </td>
+                <td> 40888484</td>
+              </tr>
+              <tr>
+                <td>E-post: </td>
+                <td>post@appelsinfoto.no</td>
+              </tr>            <tr>
+                <td>Adresse: </td>
+                <td>Fuglehauggata 12A, 0260 Oslo</td>
+              </tr>            <tr>
+                 <td>Lik oss på Facebook!</td>                    
+              </tr>
+            </table>   
+            <div class="fb-like-box" data-href="https://www.facebook.com/appelsinfotoz" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="false" data-show-border="false"></div>
+          </article>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3998.8748144025767!2d10.711851543377682!3d59.924883817194704!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416dd0254683fb%3A0xd2a94ee90ba501af!2sFuglehauggata+12A%2C+0260+Oslo!5e0!3m2!1sno!2sno!4v1417230713523" width="800" height="600" frameborder="0" style="border:0" id="kart" title="Kart som viser studioets beliggenhet"></iframe>
+    		</section>
 
-		<footer>
-		</footer>
+            <div id="spacer"></div> <!-- For at ikke footeren skal dekke over noe annet -->
+            <footer id="foot">
+                <p>© 2014 AppelsinFoto   All Rights Reserved</p>
+            </footer>
+        </div>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/nb_NO/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 	</body>
 </html>

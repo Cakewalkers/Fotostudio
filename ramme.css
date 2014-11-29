@@ -7,10 +7,13 @@ html {
 	background-image: url(Pics/Index/background3.jpg);
 	background-color: orange;
 	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 100%;
 }
 
 body {
 	font-family: Verdana, sans-serif;
+	height: 100%;
 }
 
 header {
@@ -86,4 +89,27 @@ section#main {			/* Main Section! */
 	border-bottom: 1px black solid;
 	width: 100%;
 	height: auto;
+}
+
+#wrapper {
+	min-height: 100%;
+	position: relative;
+}
+
+#foot {
+    width: 100%;
+    height: 2em;
+    background-color: black;
+    border-top: 0.3em solid gray;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+#foot p{
+	color: white;
+}
+
+#spacer {
+	padding-bottom: 3em;
 }

@@ -1,8 +1,9 @@
 <!DOCTYPE HTML>
 
-<html>
+<html lang="no">
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>AppelsinFoto</title>
 		<link rel="stylesheet" type="text/css" href="mainpage.css">
 		<link rel="stylesheet" type="text/css" href="ramme.css">
@@ -11,7 +12,7 @@
 	<body>
 		<header>
 			<div class="headerContainer">
-				<a href="index.html"><div id="logo"></div></a> <!-- Logo -->
+				<a href="index.html" id="logo"></a> <!-- Logo -->
 				<nav>		<!-- Navbar -->
 					<ul id="navElements">
 						<li><a href="index.html" id="thisPage">Forside</a></li>
@@ -35,7 +36,7 @@
 
 			<section class="content" id="slideWrap">  <!-- Bildeslide -->
 				<div id="picSlide">
-					<img src="Pics/Index/26.jpg">
+					<img src="Pics/Index/26.jpg" alt="Bilde av bygning">
 				</div>
 				<ul id="slideButtons">
 					<li class="buttons" id="button1" onclick="slidefunction1()"></li>
@@ -46,10 +47,10 @@
 
 			<section class="content"> <!-- Galleribokser -->
 				<ul id="picBoxes">
-					<li id="boks1"><a href="bryllup.html">Bryllup</a></li>
-					<li id="boks2"><a href="gravid.html">Gravide</a></li>
-					<li id="boks3"><a href="barn.html">Barn</a></li>
-					<li id="boks4"><a href="family.html">Familie</a></li>
+					<li id="boks1" title="Nygift par"><a href="bryllup.html">Bryllup</a></li>
+					<li id="boks2" title="En gravid mage"><a href="gravid.html">Gravide</a></li>
+					<li id="boks3" title="Blåøyd baby med lue"><a href="barn.html">Barn</a></li>
+					<li id="boks4" title="Familie fremfor en åker"><a href="family.html">Familie</a></li>
 				</ul>
 			</section>
 		</section>
@@ -60,17 +61,17 @@
 		<script>  // Funksjonene til sliden
 		function slidefunction1()
 		{
-			document.getElementById("picSlide").innerHTML="<img src='Pics/Index/bryllup.jpg'/>"
+			document.getElementById("picSlide").innerHTML="<img src='Pics/Index/bryllup.jpg' alt='Bilde av et gift par over en fjord/>"
 		}
 
 		function slidefunction2()
 		{
-			document.getElementById("picSlide").innerHTML="<img src='Pics/Index/studio2.jpg'/>"
+			document.getElementById("picSlide").innerHTML="<img src='Pics/Index/studio2.jpg' alt='Bilde av studio'/>"
 		}
 
 		function slidefunction3()
 		{
-			document.getElementById("picSlide").innerHTML="<img src='Pics/Index/26.jpg'/>"
+			document.getElementById("picSlide").innerHTML="<img src='Pics/Index/26.jpg' alt='Bilde av bygning'/>"
 		}
 		</script>
 	</body>

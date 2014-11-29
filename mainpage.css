@@ -43,7 +43,7 @@
 #picBoxes li {
 	list-style: none;
 	width: calc(25% - 1px);
-	padding-top: 15%;
+	padding-bottom: 15%;
 	float:left;
 	border-left: 1px solid black;
 }

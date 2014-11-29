@@ -4,9 +4,9 @@
 }
 
 html {
-	background-image: url(Pics/Index/background2.jpg);
+	background-image: url(Pics/Index/background3.jpg);
 	background-color: orange;
-	background-size: 100%
+	background-size: 100%;
 }
 
 body {
@@ -76,7 +76,6 @@ nav {
 
 section#main {			/* Main Section! */
 	border: 1px black solid;
-	border-top: none;
 	margin: auto;
 	width: 50%;
 	height: auto;

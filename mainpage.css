@@ -86,63 +86,7 @@
 	background-size: 100% 100%;
 }
 
-#sirkelWrap {
-	height: 23em;
-	width: auto;
-	overflow: auto;
-}
-
-#sirkelWrap ul {
-	list-style: none;
-	left-margin: 0;
-}
-
-#sirkelBilder li {
-	border: 1px solid black;
-	border-radius: 100%;
-	width: 16em;
-	height: 16em;
-	display: inline-block;
-	margin-left: 7.5em;
-	margin-top: 3%;
-}
-
-#sirkelBilder li p {		/* Tekst under bildene (navn) */
-	text-align: center;
-	position: relative;
-	top: 100%;
-	font-size: 1.5em;
-	font-weight: bold;
-}
-
-#sirkel1 {
-	background-image: url(Pics/Index/person5.jpg);
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-#sirkel2 {
-	background-image: url(Pics/Index/person4.jpg);
-	background-size: 100%;
-	background-repeat: no-repeat;
-}
-
-#sirkel3 {
-	background-image: url(Pics/Index/person3.jpg);
-	background-repeat: no-repeat;
-	background-size: 130%;
-	background-position: center;
-}
-
-#fotografene {
-	margin-top: 3px;
-	margin-left: 3px;
-	font-size: 1.5em;
-}
-
 #info {
 	background-color: white;
-	border-top: 1px black solid;
 	padding: 1em;
 }

@@ -1,0 +1,84 @@
+#studioBilder {
+	list-style: none;
+	width: 100%;
+	height: 25em;
+}
+
+#studioBilder li {
+	width: 50%;
+	height: inherit;
+	float: left;
+}
+
+#foto1 {
+	background-image: url(Pics/About/hus.png);
+	background-size: 100% 100%;
+}
+
+#foto2 {
+	background-image: url(Pics/About/studio.jpg);
+	background-size: 100% 100%;
+}
+
+#about {
+	background: white;
+}
+
+#tekstHolder {
+	padding: 2em;
+}
+
+#fotografene {
+	margin-bottom: 2em;
+	overflow: hidden;
+}
+
+#delere {
+	list-style: none;
+}
+
+#delere li {
+	width: 33%;
+	text-align: center;
+	float: left;
+}
+
+#left {
+	margin-left: 0.5%; /* For å få 100% width */
+}
+
+#right {
+	margin-right: 0.5%; /* For å få 100% width */
+}
+.sirkelBilder {
+	width: 75%;
+	padding-top: 75%;
+	height: inherit;
+	background-color: black;
+	border: 5px solid black;
+	border-radius: 100%;
+	margin: auto;
+}
+
+#sirkel1 {
+	background-image: url(Pics/About/person5.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#sirkel2 {
+	background-image: url(Pics/About/person4.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#sirkel3 {
+	background-image: url(Pics/About/person3.jpg);
+	background-size: 130%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.bildeTekst {
+}
